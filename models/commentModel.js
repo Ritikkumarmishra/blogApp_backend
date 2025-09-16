@@ -8,7 +8,7 @@ const commentSchema = new mongoose.Schema({
         ref: "Post", // reference to the post model
     },
     user:{
-        type:String, // ko comment kar rha haii
+        type:String, // kon comment kar rha haii
         required:true,
     },
     body:{
